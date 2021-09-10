@@ -9,7 +9,7 @@
 /* Header */
 
 header {
-    padding: 0px 50px;
+    margin: 0px 50px;
 }
 
 .nav-bar {
@@ -63,4 +63,116 @@ nav span a {
 
 nav span a:hover {
     text-decoration: underline;
+}
+
+/* Paramètres */
+
+.settings {
+    margin: 0px 50px;
+}
+
+.settings h3 {
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.search {
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.search i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 10px;
+    height: 6.5px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #F2F2F2;
+}
+
+.search input {
+    height: 35px;
+    border: 1px solid #F2F2F2;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.search input:focus {
+    outline: none;
+    border: 1px solid #0065FC;
+}
+
+.search a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 100px;
+    height: 6.5px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #0065FC;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    cursor: pointer;
+	transform: scale(1);
+	transition: .3s ease-in-out;
+}
+
+.filter:hover {
+    transform: scale(1.1);
+}
+
+.filter p {
+    padding: 9px 15px 9px 50px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+}
+
+.filter i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065FC;
+    padding: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+    position: absolute;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+}
+
+.infos i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065FC;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    margin-right: 10px;
+    font-size: 12px;
 }
