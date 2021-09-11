@@ -22,27 +22,27 @@ nav {
     display: flex;
 }
 
-nav ul{
+nav .menu{
     list-style: none;
     display: flex;
 }
 
-nav ul a {
+nav .menu a {
     border-top: 2px solid white;
     padding: 50px 40px;
 	transition: .2s ease-in-out;
 }
 
-nav ul a:first-child {
+nav .menu a:first-child {
     border-top: 2px solid #0065FC;
     padding: 50px 40px;
 }
 
-nav ul a:first-child {
+nav .menu a:first-child {
     color: #0065FC;
 }
 
-nav ul a:hover {
+nav .menu a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
 }
@@ -214,7 +214,7 @@ nav span a:hover {
 }
 
 .bg-left p:last-child:hover {
-    text-decoration: underline;
+    color: #0065FC;
     cursor: pointer;
 }
 
@@ -334,6 +334,7 @@ nav span a:hover {
 
 .activity:hover {
     transform: scale(1.03);
+    cursor: pointer;
 }
 
 .long img {
@@ -373,4 +374,39 @@ nav span a:hover {
 
 .activities .right {
     margin: 0px 50px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #F3F3F3;
+    padding: 50px;
+    margin-top: 80px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.footer .section {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h6 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+footer a {
+    margin-top: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: #0065FC;
 }
