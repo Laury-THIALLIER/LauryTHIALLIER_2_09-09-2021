@@ -30,6 +30,7 @@ nav ul{
 nav ul a {
     border-top: 2px solid white;
     padding: 50px 40px;
+	transition: .2s ease-in-out;
 }
 
 nav ul a:first-child {
@@ -136,7 +137,7 @@ nav span a:hover {
 }
 
 .filter:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .filter p {
@@ -175,4 +176,132 @@ nav span a:hover {
     border: 1px solid #F2F2F2;
     margin-right: 10px;
     font-size: 12px;
+}
+
+/* Hébergements & Populaires */
+
+.accommodationspopular {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-left {
+    background-color: #F3F3F3;
+    margin: 50px 15px 50px 50px;
+    padding: 50px;
+    border-radius: 30px;
+    width: 65%;
+}
+
+.bg-right {
+    background-color: #F3F3F3;
+    margin: 50px 50px 50px 15px;
+    padding: 50px;
+    border-radius: 30px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bg-left h2 {
+    margin-bottom: 30px;
+}
+
+.bg-left p:last-child {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.bg-left p:last-child:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.accommodations {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.accommodation {
+    background-color: white;
+    width: 30%;
+    padding: 5px;
+    border-radius: 30px;
+	transition: .3s ease-in-out;
+    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.1);
+}
+
+.accommodation:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.accommodation img {
+    height: 20vh;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.accommodation .details {
+    padding: 10px 15px;
+}
+
+.accommodation .details span {
+    font-weight: 700;
+}
+
+.accommodationspopular .active {
+    color: #0065FC;
+}
+
+.accommodationspopular i {
+    color: #F3F3F3;
+}
+
+.popular {
+    background-color: white;
+    display: flex;
+    padding: 5px;
+    border-radius: 30px;
+	transition: .3s ease-in-out;
+    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.1);
+}
+
+.popular:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.bg-right .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.bg-right .title i {
+    color: black;
+    font-size: 24px;
+}
+
+.popular img {
+    height: 12em;
+    object-fit: cover;
+    width: 12em;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.popular .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.popular .details h3 {
+    margin-bottom: 10px;
 }
