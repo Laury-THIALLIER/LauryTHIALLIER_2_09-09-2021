@@ -558,6 +558,7 @@ footer a:hover {
     }
 
     .populars {
+        flex-direction: column;
         margin-top: 50px;
     }
 
@@ -575,14 +576,7 @@ footer a:hover {
         margin: 30px 30px;
     }
 
-    .activities {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .half-activities {
-        flex-direction: row;
-        margin-bottom: 50px;
         justify-content: space-between;
     }
 
@@ -598,7 +592,13 @@ footer a:hover {
         margin-right: 50px;
     }
 
+    .long img {
+        height: 40em;
+        width: 100%;
+    }
+
     .double-activities {
+        flex-direction: column;
         align-items: flex-end;
         margin-left: 0px;
     }
@@ -611,22 +611,12 @@ footer a:hover {
         width: 33em;
     }
 
+    .first img {
+        height: 18em;
+    }
+
     .second img {
         width: 33em;
-    }
-
-    .long:first-child {
-        margin-right: 0px;
-    }
-
-    .activities .long.right {
-        margin: 0px;
-    }
-
-    /* Footer */
-
-    footer {
-        margin-top: 0px;
     }
 }
 
@@ -634,21 +624,9 @@ footer a:hover {
 
     /* Hébergements & Populaires */
 
-    .accommodationspopular {
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-    }
-
     .bg-left {
-        margin: 50px 50px 50px 50px;
-        width: 90%;
-    }
-
-    .bg-right {
-        margin: 50px;
-        width: 90%;
-        margin-bottom: 0px;
+        background-color: white;
+        margin: 0px 50px 50px 50px;
     }
 
     .accommodations {
@@ -664,19 +642,9 @@ footer a:hover {
 
     /* Activités */
 
-    .activities-section {
-        margin: 30px 30px;
-    }
-
-    .activities {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .half-activities {
         flex-direction: column;
         margin-bottom: 0px;
-        justify-content: space-between;
     }
 
     .half-activities.left {
@@ -721,10 +689,6 @@ footer a:hover {
     .second img {
         height: 18em;
         width: 100%;
-    }
-
-    .long:first-child {
-        margin-right: 0px;
     }
 
     .activities .long.right {
@@ -778,6 +742,7 @@ footer a:hover {
     }
 
     nav .menu a:hover {
+        border-top: 2px solid white;
         border-bottom: 2px solid #0065FC;
     }
 
@@ -814,15 +779,6 @@ footer a:hover {
 
     /* Hébergements & Populaires */
 
-    .bg-left {
-        background-color: white;
-        margin-top: 0px;
-    }
-
-    .accommodations {
-        align-items: center;
-    }
-
     .popular img {
         min-width: 11em;
         max-width: 11em;
@@ -834,71 +790,8 @@ footer a:hover {
         margin: 0px 15px;
     }
 
-    .activities {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .activities h3 {
         margin: 20px 20px;
-    }
-
-    .half-activities {
-        flex-direction: column;
-        margin-bottom: 0px;
-        justify-content: space-between;
-    }
-
-    .half-activities.left {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .half-activities.right {
-        width: 100%;
-    }
-
-    .activity {
-        width: 100%;
-        margin-bottom: 50px;
-    }
-
-    .long img {
-        height: 18em;
-    }
-
-    .half-activities.left .activity.long {
-        margin-left: 0px;
-    }
-
-    .half-activities.right .activity.long {
-        margin-right: 0px;
-    }
-
-    .double-activities {
-        margin-left: 0px;
-        width: 100%;
-    }
-
-    .double-activities .activity:nth-child(1) {
-        margin-bottom: 50px;
-    }
-
-    .double-activities img {
-        width: 100%;
-    }
-
-    .second img {
-        height: 18em;
-        width: 100%;
-    }
-
-    .long:first-child {
-        margin-right: 0px;
-    }
-
-    .activities .long.right {
-        margin-bottom: 50px;
     }
 
     /* Footer */
