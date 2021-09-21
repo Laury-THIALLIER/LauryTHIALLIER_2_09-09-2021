@@ -540,26 +540,8 @@ footer a:hover {
 
     /* Hébergements & Populaires */
 
-    .accommodationspopular {
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-    }
-
     .bg-left {
         margin: 50px 30px;
-        width: 90%;
-    }
-
-    .bg-right {
-        margin: 50px;
-        width: 90%;
-        margin-bottom: 0px;
-    }
-
-    .populars {
-        flex-direction: column;
-        margin-top: 50px;
     }
 
     .popular {
@@ -674,7 +656,6 @@ footer a:hover {
     }
 
     .double-activities {
-        margin-left: 0px;
         width: 100%;
     }
 
