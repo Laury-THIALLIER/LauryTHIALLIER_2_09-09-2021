@@ -544,6 +544,10 @@ footer a:hover {
         margin: 50px 30px;
     }
 
+    .populars {
+        flex-direction: column;
+    }
+
     .popular {
         width: 100%;
     }
