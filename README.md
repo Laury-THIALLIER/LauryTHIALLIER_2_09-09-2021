@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-  <a href="https://github.com/Laury-THIALLIER/LauryTHIALLIER_2_09/09/2021">
+  <a href="https://github.com/Laury-THIALLIER/LauryTHIALLIER_2_09092021">
     <img src="img/logos/logo.svg" alt="Logo" width="300" height="auto">
   </a>
 
@@ -9,7 +9,7 @@
   <p align="center">
     Reservia, une petite entreprise proposant un outil de planification de vacances.
     <br>
-    <a href="https://Laury-THIALLIER.github.io/LauryTHIALLIER_2_09-09-2021/"><strong>ALLER SUR LE SITE</strong></a>
+    <a href="https://laury-thiallier.github.io/LauryTHIALLIER_2_09092021/"><strong>ALLER SUR LE SITE</strong></a>
   </p>
 
 ## À PROPOS DU PROJET :
@@ -26,8 +26,8 @@
 
 
 ### LANGAGES / LIBRAIRIES / FONTS
-* [HTML](https://github.com/Laury-THIALLIER/LauryTHIALLIER_2_09/09/2021/search?l=html)
-* [CSS](https://github.com/Laury-THIALLIER/LauryTHIALLIER_2_09/09/2021/search?l=CSS)
+* [HTML](https://github.com/Laury-THIALLIER/LauryTHIALLIER_2_09092021/search?l=html)
+* [CSS](https://github.com/Laury-THIALLIER/LauryTHIALLIER_2_09092021/search?l=CSS)
 * [FONTAWESOME](https://fontawesome.com)
 * [RALEWAY](https://fonts.google.com/specimen/Raleway)
 
